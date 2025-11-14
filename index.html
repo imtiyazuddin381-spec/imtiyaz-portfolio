@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>M. Imtiyaz Uddin Emon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            background: #eef2f6;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #054f92, #0089a7);
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        .hero img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin-bottom: 20px;
+            object-fit: cover;
+            transition: transform 0.3s;
+        }
+
+        .hero img:hover {
+            transform: scale(1.1);
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            margin: 10px 0;
+            font-weight: 600;
+        }
+
+        .hero span {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1000px;
+            background: white;
+            margin: -50px auto 60px;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 6px 25px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #054f92;
+            margin-bottom: 15px;
+            font-weight: 600;
+            border-left: 5px solid #054f92;
+            padding-left: 12px;
+        }
+
+        .info {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #333;
+        }
+
+        /* Skills */
+        ul.skills {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 20px 0;
+        }
+
+        ul.skills li {
+            background: #e0f0ff;
+            color: #054f92;
+            display: inline-block;
+            padding: 8px 15px;
+            margin: 5px 8px 5px 0;
+            border-radius: 20px;
+            font-weight: 500;
+            transition: 0.3s;
+            cursor: default;
+        }
+
+        ul.skills li:hover {
+            background: #c0e0ff;
+            transform: scale(1.05);
+        }
+
+        /* Experience & Achievements */
+        .card {
+            background: #f7f9fc;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #054f92;
+            font-weight: 600;
+        }
+
+        .card span {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .card p {
+            margin-top: 8px;
+            color: #333;
+        }
+
+        /* Social Buttons */
+        .social {
+            margin-top: 25px;
+        }
+
+        .social a {
+            text-decoration: none;
+            color: white;
+            background: #054f92;
+            padding: 12px 25px;
+            margin-right: 15px;
+            border-radius: 7px;
+            font-size: 16px;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        .social a:hover {
+            background: #032f63;
+            transform: translateY(-2px);
+        }
+
+        /* Responsive */
+        @media(max-width: 600px){
+            .hero h1 { font-size: 32px; }
+            .hero span { font-size: 16px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <img src="https://scontent.fcgp36-1.fna.fbcdn.net/v/t39.30808-6/504634259_4199517363707347_3607292466123238094_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHmp5GeTJ8PuFmbpk95EosRRGa1noagkQlEZrWehqCRCWw4uWZhcBgCS-pXgq1iPtNW7oo-CEq43BoEiUFPo5wG&_nc_ohc=31mlImjMQjUQ7kNvwGWlhJh&_nc_oc=Admteo_2OxdJ3Kn4Mh0Ib_NVxDX9Ty0lGauWIlJyNhEQoG1jBlOtoYpbEjHd4uSCptw&_nc_zt=23&_nc_ht=scontent.fcgp36-1.fna&_nc_gid=iE-mB86HA4fkvYxwX4vP6Q&oh=00_Afin1rAK9QtEzI1Zhk30_uQyhEh9K0obgVHwXiYGoCcgXQ&oe=691D1573" alt="Profile Photo">
+        <h1>M. Imtiyaz Uddin Emon</h1>
+        <span>Professional Portfolio</span>
+    </div>
+
+    <div class="container">
+        <!-- About Me -->
+        <h2>About Me</h2>
+        <p class="info">
+            Hello! I am <strong>M. Imtiyaz Uddin Emon</strong>. I hold a BSS degree from Patiya Government College.  
+            I have 6 years of professional experience working at Social Islami Bank PLC, gaining valuable knowledge in banking operations.  
+            Currently, I am working as a <strong>Sample Man</strong> at Knit Moon Ltd, contributing to the company with dedication and skill.
+        </p>
+
+        <!-- Skills -->
+        <h2>Skills</h2>
+        <ul class="skills">
+            <li>Banking Operations</li>
+            <li>Sample Management</li>
+            <li>Customer Service</li>
+            <li>Team Collaboration</li>
+            <li>Communication</li>
+        </ul>
+
+        <!-- Experience -->
+        <h2>Experience</h2>
+        <div class="card">
+            <h3>Social Islami Bank PLC</h3>
+            <span>6 years – Banking Professional</span>
+            <p>Gained hands-on experience in banking operations, customer service, and finance management.</p>
+        </div>
+        <div class="card">
+            <h3>Knit Moon Ltd</h3>
+            <span>Current – Sample Man</span>
+            <p>Responsible for quality checks, sample management, and assisting production processes.</p>
+        </div>
+
+        <!-- Achievements -->
+        <h2>Achievements</h2>
+        <div class="card">
+            <h3>Professional Growth</h3>
+            <span>Recognized for consistent performance and reliability in both banking and manufacturing sectors.</span>
+        </div>
+
+        <!-- Contact -->
+        <h2>Contact</h2>
+        <p class="info">
+            <strong>Email:</strong> imtiyazuddin381@gmail.com  
+            <br>
+            <strong>Facebook:</strong> Click the button below
+        </p>
+
+        <div class="social">
+            <a href="https://www.facebook.com/share/1D4z2nnvEk/" target="_blank">Facebook Profile</a>
+            <a href="mailto:imtiyazuddin381@gmail.com">Send Email</a>
+        </div>
+    </div>
+
+</body>
+</html>
